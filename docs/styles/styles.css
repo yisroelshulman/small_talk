@@ -284,13 +284,6 @@ footer {
     .header-section,
     .footer-section,
     .header-section,
-    .filters,
-    .game,
-    .games-list,
-    .games-list-elem,
-    .game-details h2,
-    .document-item,
-    .document,
     header,
     footer {
         flex-direction: column;
@@ -299,15 +292,8 @@ footer {
         justify-content: center;
     }
 
-    .games-list-elem-img {
-        padding-top: 10px;
-    }
-
-    .games-list-elem-img img {
-        max-height: 320px;
-        max-width: 320px;
-        height: 100%;
-        width: 90%;
+    button span {
+        font-size: 110%;
     }
 
     .f,
@@ -317,41 +303,8 @@ footer {
     }
 
     .left,
-    .right,
-    .l,
-    .document-item,
-    .games-list-elem,
-    .game-details p,
-    .game-details h2 {
+    .right {
         padding: 0px;
-    }
-
-    .filter-item,
-    .filter {
-        width: 90%;
-    }
-
-    .filters {
-        padding-bottom: 5px;
-        width: 70%;
-    }
-
-    .tags,
-    .game-details,
-    .document,
-    .documents-list li {
-        padding: 0px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .games-list-elem a {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .filters span {
-        margin-top: 5px;
     }
 
     .icon {
