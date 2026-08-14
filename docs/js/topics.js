@@ -95,8 +95,9 @@ function addTopics() {
 	rdiv2.textContent = rTopic[1];
 
 	const button = document.createElement('button');
-	button.className = 'refresh-button';
-	button.textContent = 'new topic';
+	const span = document.createElement('span');
+	span.textContent = 'new topic';
+	button.append(span);
 	button.addEventListener('click', (e) => {
 		newTopic();
 	});

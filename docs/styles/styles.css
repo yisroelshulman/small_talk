@@ -1,28 +1,18 @@
 :root {
-    --text-header: #ffffff;
     --text-menu: #ffffff;
-    --text-filter: #66c2ff;
-    --text-filter-type: #ffcc00;
     --text-body: #ffffff;
-    --text-list-game-name: #ffcc00;
-    --text-footer-link: #ffffff;
-
     --text-prompt: #c0c0c0;
     --text-topic: #66c2ff;
+    --text-footer-link: #ffffff;
 
     --bg-header: #111111;
     --bg-widget: #404040;
     --bg-menu: rgba(64, 64, 64, 0.85);
     --bg-option: rgba(255, 255, 255, 0.50);
     --bg-selected: rgba(27, 27, 27, 0.70);
-    --bg-filter: #404040;
     --bg-body: #1e1e1e;
     --bg-list: #303030;
     --bg-footer: #191919;
-
-    --bg-game: #2a2a3a;
-    --bg-game-doc: #303030;
-    --bg-game-tag: #404040;
 
     --shadow-list: rgba(255, 255, 255, 0.2);
 
@@ -31,30 +21,20 @@
 }
 
 html[data-theme="light"] {
-    --text-header: #1e293b;
     --text-menu: #1e293b;
-    --text-filter: #3366cc;
-    --text-filter-type: #5f7285;
     --text-body: #1e293b;
-    --text-list-game-name: #1e293b;
-    --text-footer-link: #1e293b;
-
     --text-prompt: #5f7285;
     --text-topic: #5f7285;
+    --text-footer-link: #1e293b;
 
     --bg-header: #dce9ff;
     --bg-widget: #9bbaf3;
     --bg-menu: rgba(0, 0, 0, 0.1);
     --bg-option: #ffffff;
     --bg-selected: rgba(155, 186, 243, 1);
-    --bg-filter: #e0ecff;
     --bg-body: #f7faff;
     --bg-list: #ffffff;
     --bg-footer: #e3efff;
-
-    --bg-game: #ffffff;
-    --bg-game-doc: #e0ecff;
-    --bg-game-tag: #d1e4ff;
 
     --shadow-list: rgba(0, 0, 0, 0.6);
 
@@ -93,26 +73,6 @@ header {
     flex: 1;
     display: flex;
     justify-content: center;
-}
-
-.l {
-    height: 100%;
-    justify-content: left;
-    font-family: "Brush Script MT";
-    font-size: 48px;
-}
-
-.top {
-    height: auto;
-}
-
-.header-section a {
-    color: var(--text-header);
-    text-decoration: none;
-}
-
-.header-section a:hover {
-    opacity: 0.7;
 }
 
 .logo {
@@ -181,7 +141,6 @@ header {
 }
 
 .theme-option.selected {
-    color: var(--text-selected);
     font-weight: bold;
     background: var(--bg-selected);
 }
@@ -213,7 +172,7 @@ header {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 70px;
-    min-height: 150px;
+    min-height: 190px;
     box-shadow: 0 4px 6px var(--shadow-list);
     justify-content: center;
 }
@@ -229,6 +188,7 @@ header {
     justify-content: right;
     text-align: left;
     font-size: 48px;
+    padding-top: 5px;
     border-bottom: 3px solid #767373
 }
 
@@ -240,22 +200,25 @@ header {
     padding-top: 5px;
 }
 
-.refresh-button {
+button {
     display: flex;
     align-self: end;
     top: 10px;
     right: 40px;
+    width: 100px;
+    height: 30px;
     background: var(--bg-option);
     border: 2px solid var(--outline-menu);
     border-radius: 40px;
-    font-size: 20px;
-    color: var(--text-menu);
-    width: 100px;
-    height: 30px;
     cursor: pointer;
-    display: flex;
+    container-type: inline-size;
     align-items: center;
     justify-content: center;
+}
+
+button span {
+    color: var(--text-menu);
+    font-size: 20cqi;
 }
 
 footer {
