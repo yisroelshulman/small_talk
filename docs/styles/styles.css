@@ -203,19 +203,26 @@ header {
 button {
     color: var(--text-menu);
     font-size: 20px;
+
     display: flex;
     align-self: end;
+    align-items: center;
+    justify-content: center;
+
     top: 10px;
     right: 40px;
+    width: max-content;
     min-width: 100px;
     height: 30px;
+
+    flex-shrink: 0;
+    white-space: nowrap;
+
     background: var(--bg-option);
     border: 2px solid var(--outline-menu);
     border-radius: 40px;
     cursor: pointer;
-    container-type: inline-size;
-    align-items: center;
-    justify-content: center;
+
     box-sizing: border-box;
 
     -webkit-appearance: none;
