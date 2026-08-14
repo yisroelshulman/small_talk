@@ -1,0 +1,14 @@
+# txt files
+*.txt
+
+#list files
+*.xlsx
+
+#js tester
+test.html
+
+# test files
+/js
+/styles
+/home.html
+temp.py

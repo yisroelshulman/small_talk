@@ -1,0 +1,53 @@
+:root {
+    --icon-logo: url('https://lh3.googleusercontent.com/d/1zSGpTrBOGJfrFiZPIKI-dHhLj--NYjj3=w400');
+    --icon-gear: url('https://lh3.googleusercontent.com/d/1rBIFIHS6gNQZruQ8dkcDWM_WRMt21pDY=w40');
+    --icon-sun: url('https://lh3.googleusercontent.com/d/103-lRpj6jJE9XIHITxEwove9gA595slu=w40');
+    --icon-moon: url('https://lh3.googleusercontent.com/d/1lDqz6Hcy5ao06afX9yZ5DzcRKVP55IVz=w40');
+    --icon-git: url('https://lh3.googleusercontent.com/d/1dIEW63foTIkUNoS8jV8vm0R2tdUo5DiJ=w440');
+    --icon-linkedin: url('https://lh3.googleusercontent.com/d/1bI8qA6caoE-6PkDTwr-nEstibApWNxGz=w440');
+}
+
+html[data-theme='light'] {
+    --icon-logo: url('https://lh3.googleusercontent.com/d/1nweJsBedwOVI7MJyj3yVz3yysdjVSR-S=w400');
+    --icon-gear: url('https://lh3.googleusercontent.com/d/13NOI7yemLgxwKNOnB9lEckofotYPnnlC=w40');
+    --icon-sun: url('https://lh3.googleusercontent.com/d/18P0sXtr8kvOxNUDXjAD4CVNyyaL0nagP=w40');
+    --icon-moon: url('https://lh3.googleusercontent.com/d/175oKdcDAwmixkevCjemDBHfA6gORHepR=w40');
+    --icon-git: url('https://lh3.googleusercontent.com/d/14YBigBuSqC7cPRcWtKReG45Y39zFuqee=w440');
+    --icon-linkedin: url('https://lh3.googleusercontent.com/d/1nDxbGh-vdsXib1EeZURk1BEKKgbp4Rg7=w440');
+}
+
+.icon-logo {
+    content: var(--icon-logo);
+}
+
+.icon-gear {
+    content: var(--icon-gear);
+    max-height: 65%;
+    max-width: 65%;
+}
+
+.icon-sun {
+    content: var(--icon-sun);
+    max-height: 65%;
+    max-width: 65%;
+}
+
+.icon-moon {
+    content: var(--icon-moon);
+    max-height: 65%;
+    max-width: 65%;
+}
+
+.icon-git {
+    content: var(--icon-git);
+}
+
+.icon-linkedin {
+    content: var(--icon-linkedin);
+}
+
+.icon-foot {
+    max-width: 64px;
+    max-height: 64px;
+    transition: all, 0.3s, ease;
+}
