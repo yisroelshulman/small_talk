@@ -201,6 +201,8 @@ header {
 }
 
 button {
+    color: var(--text-menu);
+    font-size: 20px;
     display: flex;
     align-self: end;
     top: 10px;
@@ -214,11 +216,9 @@ button {
     container-type: inline-size;
     align-items: center;
     justify-content: center;
-}
 
-button span {
-    color: var(--text-menu);
-    font-size: 20cqi;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 footer {
@@ -290,10 +290,6 @@ footer {
         text-align: center;
         align-items: center;
         justify-content: center;
-    }
-
-    button span {
-        font-size: 110%;
     }
 
     .f,

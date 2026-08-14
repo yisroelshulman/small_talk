@@ -95,9 +95,7 @@ function addTopics() {
 	rdiv2.textContent = rTopic[1];
 
 	const button = document.createElement('button');
-	const span = document.createElement('span');
-	span.textContent = 'new topic';
-	button.append(span);
+	button.textContent = 'new topic';
 	button.addEventListener('click', (e) => {
 		newTopic();
 	});
