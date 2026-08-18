@@ -55,13 +55,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
 header {
     background-color: var(--bg-header);
     padding: 20px;
@@ -98,11 +91,6 @@ header {
 
 #settings-widget:hover {
     background: #606060;
-}
-
-.widget {
-    max-width: 65%;
-    max-height: 65%;
 }
 
 #theme-menu {
@@ -152,11 +140,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.home-page-container {
-    flex: 1;
-    margin: 5px;
 }
 
 .topics-list {
@@ -291,7 +274,6 @@ footer {
 
     .header-section,
     .footer-section,
-    .header-section,
     header,
     footer {
         flex-direction: column;
